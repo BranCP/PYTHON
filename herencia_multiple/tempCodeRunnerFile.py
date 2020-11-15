@@ -1,0 +1,2 @@
+
+print(Cuadrado.mro());
