@@ -1,5 +1,6 @@
-MiClase.metodo_estatico();
-# MiClase.metodo_clase();
-
-# objeto1=MiClase();
-# objeto1.metodo_instancia();
+except ValueError as e:
+#     print("Valiu error");
+#     print(type(e));
+# except Exception as e:
+#     print("Ocurrio un error excep",e);
+#     print(type(e));
