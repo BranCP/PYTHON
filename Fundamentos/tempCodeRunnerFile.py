@@ -1,6 +1,5 @@
-except ValueError as e:
-#     print("Valiu error");
-#     print(type(e));
-# except Exception as e:
-#     print("Ocurrio un error excep",e);
-#     print(type(e));
+
+
+# for numero in range(100):
+#     if numero%2==0:
+#         print(numero)
