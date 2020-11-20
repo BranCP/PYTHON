@@ -1,5 +1,5 @@
-MiClase.metodo_estatico();
-# MiClase.metodo_clase();
 
-# objeto1=MiClase();
-# objeto1.metodo_instancia();
+
+# for numero in range(100):
+#     if numero%2==0:
+#         print(numero)

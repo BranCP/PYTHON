@@ -7,6 +7,7 @@ producto3=Producto("Calcetines",50.00);
 
 #lista
 productos=[producto1,producto2];
+print(type(productos))
 
 orden1=Orden(productos);
 
