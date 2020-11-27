@@ -1,13 +1,21 @@
-# Use the file name mbox-short.txt as the file name
 fname = input("Enter file name: ")
+if len(fname) < 1 : fname = "mbox-short.txt"
+    
+    
+
 fh = open(fname)
-count=0
-total=0
+count = 0
+listafinal=list()
+
 for line in fh:
-    if not line.startswith("X-DSPAM-Confidence:") : continue
-    a1=line.find(0)
-    a2=float(line[a1:].strip())
-    total=total+a2
+    line.rstrip()
+    if not line.startswith("From") : continue
+    linea2=line.split()
+    listafinal.append(linea2[1])
     count=count+1
     
-print("Contar:",count," suma: ",total)
+
+for line in listafinal:
+    print(line)
+    
+print("There were", count, "lines in the file with From as the first word")

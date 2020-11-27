@@ -1,0 +1,25 @@
+.get
+counts=dict()
+
+if name in counts:
+x=counts[name]
+else:
+x=0
+
+x=counts.get(name,0)
+
+
+count=dict()
+
+names=['csev','cwen','csev','zqian','cwen']
+for name in names:
+    count[name]=counts.get(name,0)+1
+
+print(counts)
+
+
+c={'a':10,'b':1,'c':22}
+
+print( sorted ( [(v,k) for k,v in c.items()]  ))
+
+[(1,'b'),(10,'a'),(22,'c')]
