@@ -30,7 +30,7 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-fh = open("where.data")
+fh = open("D:\Cursos\PYTHON\PYTHON\code3\geodata\where.data")
 count = 0
 for line in fh:
     if count > 200 :
